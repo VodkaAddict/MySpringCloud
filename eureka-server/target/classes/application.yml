@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+#    prefer-ip-address: true # true代表可以使用IP地址定义注册地址
+#    lease-renewal-interval-in-second: 30 # 服务提供者的续约(心跳)周期
+#    lease-renewal-expiration-duration-in-second: 90 # 服务提供者的续约(心跳)过期时间
+  client:
+    registerWithEureka: false #false代表不向注册中心注册自己，单机模式下，默认为true
+    fetchRegistry: false #false代表不去检索服务，单机模式下，默认为true
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    #  server:
+    # enable-self-preservation: false # 服务注册中心的自我保护机制，默认true
+
+spring:
+  application:
+    name: cloud-eureka-server

@@ -1,0 +1,18 @@
+server:
+  port: 8821
+
+spring:
+  application:
+    name: zuul-api-gateway
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    helloService:
+      path: /helloService/**
+      serviceId: feign-consumer
+  # ignored-services: xxx

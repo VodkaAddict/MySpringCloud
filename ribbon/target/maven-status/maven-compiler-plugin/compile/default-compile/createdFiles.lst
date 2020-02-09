@@ -1,0 +1,6 @@
+kled/chen/ribbon/service/HystrixObservableHelloCommand.class
+kled/chen/ribbon/filter/HystrixRequestContextServletFilter.class
+kled/chen/ribbon/RibbonApplication.class
+kled/chen/ribbon/controller/HelloController.class
+kled/chen/ribbon/service/HystrixHelloCommand.class
+kled/chen/ribbon/service/HelloService.class
