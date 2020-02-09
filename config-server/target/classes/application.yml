@@ -16,8 +16,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/VodkaAddict/MySpringCloud.git
+          uri: git@github.com:VodkaAddict/MySpringCloud.git
           search-paths: config-repository
 #          skip-ssl-validation: true
 #          username: VodkaAddict
-#          password: 
+#          password: 02080610.zuan
