@@ -2,22 +2,31 @@ server:
   port: 8831
 
 spring:
+  security:
+    user:
+      name: admin
+      password: admin
   application:
     name: config-server
 #  从本地存储读取配置，默认从应用的src/main/resource目录下检索配置文件
-#  profiles:
-#    active: native
+  profiles:
+    active: native
 #    cloud:
 #      config:
 #        server:
 #          native: #加载本地目录文件
 #            search-locations: /Users/xxxx/config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:VodkaAddict/MySpringCloud.git
-          search-paths: config-repository
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: git@github.com:VodkaAddict/MySpringCloud.git
+#          search-paths: config-repository
 #          skip-ssl-validation: true
 #          username: VodkaAddict
-#          password: 02080610.zuan
+#          password:
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,28 @@
+#从config-server读取配置的应用名称
+server:
+  port: 8841
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+#      label: master
+      profile: dev
+      # 优先判断config-server获取是否正常，然后加载客户端其他配置
+      fail-fast: true
+#      uri: http://localhost:8831 #通过域名访问配置中心服务端
+      discovery:
+        enabled: true
+        serviceId: config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
