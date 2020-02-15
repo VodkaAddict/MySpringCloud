@@ -5,8 +5,16 @@ server:
 spring:
   application:
     name: config-client
+  rabbitmq:
+    host: 172.16.5.30
+    port: 5672
+    username: admin
+    password: Dah10oo00+1
   cloud:
     config:
+      bus:
+        trace:
+          enabled: true
 #      label: master
       profile: dev
       # 优先判断config-server获取是否正常，然后加载客户端其他配置

@@ -14,6 +14,9 @@ public class HelloController {
     @Value("${from:undefined}")
     private String from;
 
+    @Value("${to:undefined}")
+    private String to;
+
     @Autowired
     private Environment env;
 
@@ -25,5 +28,10 @@ public class HelloController {
     @GetMapping("configClient2")
     public String configCLient2(){
         return env.getProperty("from", "undefined");
+    }
+
+    @GetMapping("configClient3")
+    public String configCLient3(){
+        return to;
     }
 }

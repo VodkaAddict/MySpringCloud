@@ -2,6 +2,11 @@ server:
   port: 8831
 
 spring:
+  rabbitmq:
+    host: 172.16.5.30
+    port: 5672
+    username: admin
+    password: Dah10oo00+1
   security:
     user:
       name: admin
@@ -25,8 +30,18 @@ spring:
 #          skip-ssl-validation: true
 #          username: VodkaAddict
 #          password:
+  cloud:
+    bus:
+      trace:
+        enabled: true
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
