@@ -1,0 +1,19 @@
+server:
+  port: 8851
+
+spring:
+  application:
+    name: stream-hello
+  rabbitmq:
+    host: 172.16.5.30
+    port: 5672
+    username: admin
+    password: Dah10oo00+1
+  cloud:
+    stream:
+      bindings:
+        example-topic-input:
+          # destination默认为channel的名称
+          destination: input-topic
+        example-topic-output:
+          destination: output-topic

@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf6669c-7175-4b18-b1f7-a74e00afe95c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyBusEndPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyRemoteApplicationEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyRemoteListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/kled/chen/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/kled/chen/listener/HelloListener1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/kled/chen/listener/HelloListener2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/kled/chen/RabbitMQTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/StreamConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyRxStreamListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MySender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyStreamListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/streamhello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/ConfigClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/kled/chen/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/target/classes/kled/chen/ConfigClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/target/classes/kled/chen/ConfigClientApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/target/classes/kled/chen/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/target/classes/kled/chen/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config-client-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config-client-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/kled/chen/SpringTestConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/test/java/kled/chen/SpringTestConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/config-client-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/config-client-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/test-classes/kled/chen/SpringTestConfigServerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/test-classes/kled/chen/SpringTestConfigServerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,6 +31,7 @@
     <ignored path="$PROJECT_DIR$/zuul-api-gateway/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
     <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/stream-hello/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,39 +45,31 @@
     <favorites_list name="MySpringCloud" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyRemoteApplicationEvent.java">
+        <entry file="file://$PROJECT_DIR$/stream-hello/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="68" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="68" />
-              <folding>
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-stream-rabbit/2.0.0.RELEASE/spring-cloud-starter-stream-rabbit-2.0.0.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyRemoteListener.java">
+        <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyBusEndPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="276">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,71 +78,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/stream-hello/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.0.RELEASE/spring-cloud-context-2.0.0.RELEASE.jar!/org/springframework/cloud/endpoint/RefreshEndpoint.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="18">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.0.RELEASE/spring-cloud-context-2.0.0.RELEASE.jar!/org/springframework/cloud/context/refresh/ContextRefresher.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="371">
+              <caret line="76" column="28" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/ConfigClientApplication.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/rabbit/config/RabbitMessageChannelBinderConfiguration.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-core-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/rabbit/properties/RabbitBinderConfigurationProperties.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="145">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/StreamHelloApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/endpoint/AbstractBusEndpoint.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyRxStreamListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/endpoint/RefreshBusEndpoint.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="72">
+              <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -195,6 +160,8 @@
       <find>refresh</find>
       <find>/bus/r</find>
       <find>bus/fresh</find>
+      <find>complete</find>
+      <find>MessageSource</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,20 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/turbine/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/feign-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/feign-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/FeignBeanFactoryPostProcessor.java" />
-        <option value="$PROJECT_DIR$/hello-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-service-api/src/main/java/kled/chen/service/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/hello-service-api/src/main/java/kled/chen/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/java/kled/chen/eurekaClient/web/RefactorHelloController.java" />
-        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/feign-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/config/DisableHystrixConfiguration.java" />
         <option value="$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/FeignConsumerApplication.java" />
         <option value="$PROJECT_DIR$/zuu-api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/service/HelloFallBackService.java" />
@@ -254,6 +207,20 @@
         <option value="$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyBusEndPoint.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/kled/chen/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyReceive.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/StreamContant.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/SinkReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/SinkSender.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/StreamConstant.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/StreamHelloApplication.java" />
+        <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/controller/RxHelloController.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyStreamListener.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MySender.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyRxStreamListener.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -283,7 +250,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,7 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,25 +271,25 @@
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -330,7 +297,7 @@
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -339,7 +306,7 @@
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -349,41 +316,29 @@
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kled" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kled" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -392,7 +347,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,6 +361,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kled.chen.service" />
+      <recent name="kled.chen.controller" />
       <recent name="kled.chen.listener" />
       <recent name="kled.chen.ribbon.service" />
     </key>
@@ -437,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConfigClientApplication">
+  <component name="RunManager" selected="Application.HelloController">
     <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kled.chen.ConfigClientApplication" />
       <module name="configclient" />
@@ -477,45 +434,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMQTest.send1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="configserver" />
+    <configuration name="HelloController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kled.chen.controller.HelloController" />
+      <module name="streamhello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kled.chen.*" />
+          <option name="PATTERN" value="kled.chen.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kled.chen" />
-      <option name="MAIN_CLASS_NAME" value="kled.chen.RabbitMQTest" />
-      <option name="METHOD_NAME" value="send1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMQTest.send2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="configserver" />
+    <configuration name="StreamHelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kled.chen.StreamHelloApplication" />
+      <module name="streamhello" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="kled.chen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kled.chen" />
-      <option name="MAIN_CLASS_NAME" value="kled.chen.RabbitMQTest" />
-      <option name="METHOD_NAME" value="send2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloController" />
+        <item itemvalue="Application.StreamHelloApplication" />
         <item itemvalue="Application.ConfigClientApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="JUnit.RabbitMQTest.send2" />
-        <item itemvalue="JUnit.RabbitMQTest.send1" />
       </list>
     </recent_temporary>
   </component>
@@ -559,10 +510,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.24678111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.23748212" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -571,7 +522,7 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3722826" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.35869566" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.34013605" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.26902175" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -603,6 +554,48 @@
       <window_info anchor="right" id="Maven" order="14" sideWeight="0.49785408" weight="0.13876967" />
       <window_info anchor="right" id="Structure" order="15" sideWeight="0.50214595" visible="true" weight="0.14806867" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.27896994" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5018587" side_tool="true" weight="0.27110156" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3722826" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.34013605" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.26902175" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32800853" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021299" side_tool="true" weight="0.43679458" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.34875846" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" weight="0.3668478" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3206522" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.20021299" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32960597" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" show_stripe_button="false" weight="0.24920128" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="RestServices" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32960597" />
+      <window_info anchor="right" id="Data View" order="8" show_stripe_button="false" weight="0.32960597" />
+      <window_info anchor="right" id="Dynamic Properties" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="11" />
+      <window_info anchor="right" id="BPMNPalette" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" id="Maven" order="14" sideWeight="0.49785408" weight="0.13876967" />
+      <window_info active="true" anchor="right" id="Structure" order="15" sideWeight="0.50214595" visible="true" weight="0.14806867" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,414 +640,374 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/src/main/java/kled/chen/ZuulApiGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbine/src/main/java/kled/chen/TurbineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon/src/main/java/kled/chen/ribbon/RibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java/kled/chen/HystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/kled/chen/FeignConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/kled/chen/config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/test/java/kled/chen/rabbitmq_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/test/java/kled/chen/SpringTestConfigServerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/core/Binding.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/kled/chen/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/kled/chen/listener/HelloListener1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/kled/chen/listener/HelloMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0/guava-16.0.jar!/com/google/common/collect/Maps.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
-          <folding>
-            <element signature="e#3361#3362#0" expanded="true" />
-            <element signature="e#3397#3398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/test/java/kled/chen/RabbitMQTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/kled/chen/listener/HelloListener2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="465" column="30" lean-forward="true" selection-start-line="465" selection-start-column="30" selection-end-line="465" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/kled/chen/eurekaServer/EurekaServerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.7.RELEASE/spring-messaging-5.0.7.RELEASE.jar!/org/springframework/messaging/handler/annotation/MessageMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.0.RELEASE/spring-cloud-stream-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/annotation/StreamListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/AbstractBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/config/xml/AbstractChannelAdapterParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/annotation/InboundChannelAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.0.6.RELEASE/spring-integration-amqp-5.0.6.RELEASE.jar!/org/springframework/integration/amqp/config/AmqpOutboundChannelAdapterParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/config/xml/AbstractOutboundChannelAdapterParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/context/IntegrationObjectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/endpoint/AbstractEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.0.6.RELEASE/spring-integration-amqp-5.0.6.RELEASE.jar!/org/springframework/integration/amqp/inbound/AmqpInboundChannelAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.0.6.RELEASE/spring-integration-amqp-5.0.6.RELEASE.jar!/org/springframework/integration/amqp/inbound/AmqpMessageSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/handler/AbstractMessageHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/handler/AbstractMessageProducingHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="40" column="82" lean-forward="true" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/handler/AbstractReplyProducingMessageHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.0.6.RELEASE/spring-integration-amqp-5.0.6.RELEASE.jar!/org/springframework/integration/amqp/outbound/AbstractAmqpOutboundEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.0.6.RELEASE/spring-integration-amqp-5.0.6.RELEASE.jar!/org/springframework/integration/amqp/outbound/AmqpOutboundEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/endpoint/MessageProducerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/connection/RabbitAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar!/org/springframework/integration/core/MessageProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.7.RELEASE/spring-messaging-5.0.7.RELEASE.jar!/org/springframework/messaging/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.7.RELEASE/spring-messaging-5.0.7.RELEASE.jar!/org/springframework/messaging/MessageHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/kled/chen/ConfigServerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.7.RELEASE/spring-messaging-5.0.7.RELEASE.jar!/org/springframework/messaging/handler/annotation/Payload.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="234">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyStreamListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/core/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessagingMessageListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/support/converter/MessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/SimpleMessageListenerContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <element signature="e#9371#9372#0" expanded="true" />
+            <element signature="e#9435#9436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/AbstractMessageListenerContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1446">
+          <caret line="896" column="20" selection-start-line="896" selection-start-column="12" selection-end-line="896" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/AbstractAdaptableMessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="39" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/BusAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/event/RefreshRemoteApplicationEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.3.RELEASE/spring-boot-actuator-2.0.3.RELEASE.jar!/org/springframework/boot/actuate/endpoint/annotation/Endpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/jackson/RemoteApplicationEventScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.3.RELEASE/spring-boot-actuator-2.0.3.RELEASE.jar!/org/springframework/boot/actuate/endpoint/web/annotation/WebEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.3.RELEASE/spring-boot-actuator-2.0.3.RELEASE.jar!/org/springframework/boot/actuate/endpoint/annotation/WriteOperation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/AntPathMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="175" column="39" selection-start-line="175" selection-start-column="32" selection-end-line="175" selection-end-column="39" />
-          <folding>
-            <element signature="e#6194#6195#0" expanded="true" />
-            <element signature="e#6242#6243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/DefaultBusPathMatcher.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/BlockingQueueConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/ServiceMatcher.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/support/ConsumerTagStrategy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="90">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/event/RemoteApplicationEvent.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/support/MessagePropertiesConverter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="126">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/endpoint/RefreshBusEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/core/MessageProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config-client-dev.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar!/com/rabbitmq/client/RecoveryListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/ConfigClientApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.0.RELEASE/spring-cloud-stream-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/Binder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/kafka/KafkaAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/rabbit/config/RabbitServiceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/rabbit/RabbitMessageChannelBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="77" column="241" selection-start-line="77" selection-start-column="241" selection-end-line="77" selection-end-column="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.0.RELEASE/spring-cloud-stream-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/ExtendedPropertiesBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-stream-rabbit/2.0.0.RELEASE/spring-cloud-starter-stream-rabbit-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/rabbit/config/RabbitMessageChannelBinderConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="144">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-core-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/rabbit/properties/RabbitBinderConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/StreamHelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.0.0.RELEASE/spring-cloud-bus-2.0.0.RELEASE.jar!/org/springframework/cloud/bus/endpoint/AbstractBusEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyRemoteApplicationEvent.java">
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/kled/chen/service/MyRxStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="68" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyRemoteListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/kled/chen/extensions/MyBusEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.0.RELEASE/spring-cloud-context-2.0.0.RELEASE.jar!/org/springframework/cloud/context/refresh/ContextRefresher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.0.RELEASE/spring-cloud-context-2.0.0.RELEASE.jar!/org/springframework/cloud/endpoint/RefreshEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
