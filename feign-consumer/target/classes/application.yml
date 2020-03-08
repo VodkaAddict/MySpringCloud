@@ -4,6 +4,17 @@ server:
 spring:
   application:
     name: feign-consumer
+  sleuth:
+    sleuth:
+      web:
+        client:
+          enabled: true
+      sampler:
+        probability: 1.0
+  zipkin:
+    base-url: http://localhost:8861/
+    sender:
+      type: web
 
 eureka:
   client:

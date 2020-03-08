@@ -1,0 +1,24 @@
+server:
+  port: 8861
+
+spring:
+  application:
+    name: zipkin-server
+  datasource:
+    # schema: classpath:/mysql.sql
+    url: jdbc:mysql://localhost:3306/zipkin?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: uEXsn7NZrusBIGKe
+    driver-class-name: com.mysql.jdbc.Driver
+    # initialize: true
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+
+zipkin:
+  storage:
+    type: mysql
+

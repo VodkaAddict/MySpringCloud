@@ -27,6 +27,7 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>stream-hello</module>
+        <module>zipkin-server</module>
     </modules>
 
     <properties>

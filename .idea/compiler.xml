@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="turbine" />
         <module name="feignconsumer" />
         <module name="streamhello" />
         <module name="helloserviceapi" />
-        <module name="eurekaserver" />
-        <module name="hystrixdashboard" />
-        <module name="ribbon" />
+        <module name="eurekaclient" />
         <module name="zipkinserver" />
+        <module name="ribbon" />
         <module name="configserver" />
         <module name="zuulapigateway" />
+        <module name="eurekaserver" />
+        <module name="hystrixdashboard" />
         <module name="configclient" />
-        <module name="turbine" />
-        <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

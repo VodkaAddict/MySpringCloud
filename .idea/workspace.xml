@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf6669c-7175-4b18-b1f7-a74e00afe95c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kled.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zipkin-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
@@ -17,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-consumer/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/kled/chen/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign-consumer/target/classes/kled/chen/controller/HelloController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipkin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zipkin-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="216">
               <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
@@ -187,11 +184,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1920" />
     <option name="y" value="-91" />
     <option name="width" value="1920" />
-    <option name="height" value="1005" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -201,6 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,8 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,9 +426,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-91" width="1920" height="1005" extended-state="0" />
+    <frame x="-1920" y="-91" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.22151224" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.22364217" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -447,7 +444,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32800853" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021299" side_tool="true" weight="0.43679458" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.34875846" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" weight="0.3396739" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" visible="true" weight="0.3388601" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32956153" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -618,12 +615,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stream-hello/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.3.RELEASE/spring-boot-dependencies-2.0.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
@@ -773,26 +770,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-197" />
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/feign-consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -861,20 +858,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="46" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="43" column="21" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Finchley.RELEASE/spring-cloud-dependencies-Finchley.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="216">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
